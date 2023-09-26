@@ -1,0 +1,53 @@
+h1 {
+    color: #9b5f1c;
+    font-family: Georgia;
+    font-size: xx-large;
+    position: center;
+}
+body{
+    margin-bottom: 0px;
+    padding: 0px;
+    background-image: url(hewan.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+
+}
+h2 { font-family: "fantasy";
+    font-size: xx-large;
+    font-style: bold;
+
+}
+table {
+    font-family:'Times New Roman';
+    font-style: inherit;
+    font-size: larger;
+}
+.signup{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+    color: #9b5f1c;
+    background:rgba(112, 83, 22, 0.295);
+}
+.signup input[type="text"],input[type="password"], input[type="date"]{
+    border: none;
+    border-bottom: 1px solid #9b5f1c;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #9b5f1c;
+    font-size: 16px;
+}.signup button{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    color: #9b5f1c;
+    font-size: 20px;
+    border-radius: 30px;
+}
