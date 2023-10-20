@@ -1,0 +1,85 @@
+.login{
+    background-color: #9b601c57;
+    border-radius: 8px;
+    position: relative;
+    top: 8%;
+    width: 350px;
+    height: 450px;
+    margin: 50px auto 10px auto;
+    padding: 15px 0 0 15px;
+    box-shadow: 0 5px 7px rgba(128, 128, 128, 0.781);
+    color: #9b5f1c;
+}
+.Email input[type="email"], .Pass input[type="password"]{
+    width: 300px;
+    position: relative;
+    left: 3%;
+}
+.btnlogin button[type="button"] {
+    background-color: #9b5f1c;
+    border-color: #9b5f1c;
+    color: #fff;
+    width: 300px;
+    position: relative;
+    left: 3%;
+}
+h1{
+    position: relative;
+    left: 28%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(hewan0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "fantasy";
+    font-style: bold;
+}
+.forgetpass {
+    position: relative;
+    left: 59%;
+    color: gray;
+}
+p.divider {
+    position: relative;
+    text-align: center;
+    color: #868686;
+    margin-right: 18px;
+    margin-left: auto;
+  }
+  p.divider::before{
+    color: #868686;
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 90px;
+    margin-left: auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #868686;
+  }
+  p.divider::after {
+    color: #868686;
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 90px;
+    margin-left: 15px;
+    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background: #868686;
+  }
+  .btnsignup button[type="button"] {
+    background-color: #9b5f1c;
+    border-color: #9b5f1c;
+    color: #fff;
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 3%;
+}
